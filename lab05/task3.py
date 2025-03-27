@@ -1,4 +1,3 @@
-import pandas as dp
 import pandas as pd
 
 d = {'klucz1': 50, 'klucz2': 100, 'klucz3': 150}
