@@ -8,4 +8,4 @@ dane_studentow = pd.DataFrame({
 })
 print(dane_studentow["Matematyka"].mean())
 print(dane_studentow["Matematyka"].median())
-print(dane_studentow["Matematyka"].mode().to_list())
+print(dane_studentow["Matematyka"].mode().tolist())
