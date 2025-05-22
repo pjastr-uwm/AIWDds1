@@ -8,15 +8,15 @@ df1 = pd.DataFrame({
                      4.2, 4.1, 4.3, 4.0, 4.2]
 })
 
-shopA = df1[df1["Sklep"]=="Sklep A"]
-shopB = df1[df1["Sklep"]=="Sklep B"]
-shopC = df1[df1["Sklep"]=="Sklep C"]
+shopA = df1[df1["Sklep"] == "Sklep A"]
+shopB = df1[df1["Sklep"] == "Sklep B"]
+shopC = df1[df1["Sklep"] == "Sklep C"]
 priceA = shopA["Cena (zł/kg)"]
 priceB = shopB["Cena (zł/kg)"]
 priceC = shopC["Cena (zł/kg)"]
 
 plt.boxplot([priceA, priceB, priceC])
 plt.title("Wykres pudełkowy cen w różnych sklepach")
-plt.xticks([1,2,3],["Sklep A", "Sklep B", "Sklep C"])
+plt.xticks([1, 2, 3], ["Sklep A", "Sklep B", "Sklep C"])
 
 plt.show()
